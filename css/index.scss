@@ -1,0 +1,49 @@
+#carousel-animation {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slide-image {
+    display: none;
+    width: 100%;
+    margin: auto;
+
+    img {
+        width:100%;
+    }
+}
+
+// Formatiing for buttons taken from W3schools
+#back, #forward {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -32px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+#forward {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#back:hover, #forward:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+
+.caption {
+    width: 100%;
+    text-align: center;
+}
+
+.about p {
+    font-size: 14pt;
+}

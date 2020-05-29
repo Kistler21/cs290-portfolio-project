@@ -1,0 +1,16 @@
+form {
+  width: 30%;
+  font-size: 14pt;
+}
+
+#contact-info p {
+  margin: 5px 0;
+  padding: 5px;
+  font-size: 14pt;
+}
+
+#contact-info a {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=contact.css.map */

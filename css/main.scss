@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: lightgrey;
+}
+
+header {
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+    background-color: lightgrey;
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+#navbar {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: green;
+    z-index: 9999;
+
+    a {
+        float: right;
+        margin: 0;
+        padding: 10px 25px;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
+    a:hover {
+        background-color: black;
+    }
+
+    .here {
+        background-color: darkgreen;
+    }
+}
+
+main {
+    margin: auto;
+    padding: 15px;
+    width: 80%;
+    background-color: white;
+    overflow: hidden;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/education.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Michael Kistler's Personal Website</h1>
+  </header>
+
+  <!-- Navbar at top of page -->
+  <nav id="navbar">
+    <a href="./contact.html" title="Contact Me">Contact</a>
+    <a href="./experience.html" title="Previous Work Experience">Experience</a>
+    <a href="./education.html" title="Education" class="here">Education</a>
+    <a href="./index.html" title="Home">Home</a>
+  </nav>
+
+  <main>
+
+    <a id="class-selector">Show Classes</a>
+    <a id="project-selector">Show Projects</a>
+
+    <div id="classes">
+
+      <div id="osu-classes">
+        <h2>Oregon State Classes</h2>
+        <figure class="school-logo">
+          <img src="./pictures/osu-primarylogo-2-compressor-cropped.jpg" alt="OSU Logo">
+          <figcaption>Image taken from <a href="https://oregonstate.edu">oregonstate.edu</a></figcaption>
+        </figure>
+        <div class="classes-taken">
+          <h3>Classes Taken</h3>
+          <ul>
+            <li>Introduction to Computer Science I</li>
+            <li>Discrete Structures in Computer Science</li>
+            <li>Introduction to Computer Science II</li>
+            <li>Computer Architecture and Assembly Language</li>
+            <li>Data Structures</li>
+            <li>Web Development</li>
+          </ul>
+        </div>
+        <div class="planned-classes">
+          <h3>Planned Classes</h3>
+          <ul>
+            <li>Introduction to Databases</li>
+            <li>Introduction to Computer Networks</li>
+            <li>Software Engineering I</li>
+            <li>Operating Systems</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="purdue-classes">
+        <h2>Purdue Classes</h2>
+        <figure class="school-logo">
+          <img src="./pictures/purdue-logo.png" alt="Purdue Logo">
+          <figcaption>Image taken from <a href="https://purdue.edu">purdue.edu</a></figcaption>
+        </figure>
+        <div class="classes-taken">
+          <h3>Classes Taken</h3>
+          <ul>
+            <li>Calculus I, II, III</li>
+            <li>Multivariate Calculus</li>
+            <li>Linear Algebra & Differential Equations</li>
+            <li>Differential Euqation Systems</li>
+            <li>Statistics</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="projects">
+
+      <h2>Projects</h2>
+      <dl>
+        <dt>Introduction to Computer Science II</dt>
+        <dd>Created a game of Xiangqi (Chinese chess) using Python. Gave great practice in object-oriented programming.
+          This project was a culmination of the topics taught in the two introdcution to computer science classes taken
+          in my first two sessions with Oregon State. The source code for this project as well as the readme specifying
+          the requirements for the project can be found on
+          <a href="https://github.com/Kistler21/cs162-portfolio-project">my Github.</a></dd>
+        <dt>Computer Architecture and Assembly Language</dt>
+        <dd>This class focused on writing code in the Microsoft Macro Assembly (MASM) language. The final portfolio
+          project focused on creating low-level I/O procedures. The program was able to read and write signed integers
+          to the user through our own created procedures rather than using a library as we had been doing for the
+          majority of the course. The source code for this project as well as a PDF outling the requirements for the
+          project can be found on
+          <a href="https://github.com/Kistler21/cs271-portfolio-project">my Github.</a>
+        </dd>
+      </dl>
+
+    </div>
+
+  </main>
+
+  <script src="./javascript/education.js"></script>
+</body>
+
+</html>

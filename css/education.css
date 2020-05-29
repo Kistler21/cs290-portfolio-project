@@ -1,0 +1,66 @@
+#class-selector, #project-selector {
+  cursor: pointer;
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 10px;
+  font-size: 18pt;
+  font-weight: bold;
+  background-color: lightgrey;
+}
+
+#class-selector:hover, #project-selector:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#osu-classes, #purdue-classes {
+  margin-top: 30px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#osu-classes ul, #purdue-classes ul {
+  display: inline-block;
+  width: 30%;
+}
+
+#osu-classes li, #purdue-classes li {
+  text-align: left;
+  font-size: 14pt;
+}
+
+.school-logo {
+  margin: auto;
+  width: 25%;
+  padding-top: 0px;
+}
+
+.school-logo img {
+  width: 100%;
+}
+
+.school-logo figcaption {
+  width: 100%;
+  text-align: center;
+}
+
+#projects {
+  display: none;
+  margin-top: 30px;
+}
+
+#projects h2 {
+  text-align: center;
+}
+
+#projects dt {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+#projects dd {
+  padding: 10px;
+  font-size: 14pt;
+}
+/*# sourceMappingURL=education.css.map */
